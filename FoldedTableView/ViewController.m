@@ -24,6 +24,7 @@
         _sectionData = [[NSMutableArray alloc] init];
         
         NSArray *sectionArray = @[@"特别关心",@"常用群聊",@"家人",@"亲人",@"朋友",@"工作",@"大学同学",@"高中同学",@"米线",@"初中同学",@"手机通讯录",@"我的设备"];
+        
         NSArray *imageNameArray = @[@"魏一",@"蜀二",@"张三",@"李四",@"王五",@"赵六",@"刘七",@"秦八",@"梁九",@"夏十"];
         
         NSArray *onlineContentArray = @[@"[4G在线]haha",@"[4G在线]哈哈",
