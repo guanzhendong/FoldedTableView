@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4442CCE31DD1AA63009B1373 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4442CCE21DD1AA63009B1373 /* main.m */; };
+		4442CCE61DD1AA63009B1373 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4442CCE51DD1AA63009B1373 /* AppDelegate.m */; };
+		4442CCE91DD1AA63009B1373 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4442CCE81DD1AA63009B1373 /* ViewController.m */; };
+		4442CCEC1DD1AA63009B1373 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4442CCEA1DD1AA63009B1373 /* Main.storyboard */; };
+		4442CCEE1DD1AA63009B1373 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4442CCED1DD1AA63009B1373 /* Assets.xcassets */; };
+		4442CCF11DD1AA63009B1373 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4442CCEF1DD1AA63009B1373 /* LaunchScreen.storyboard */; };
+		4442CCFA1DD1AC56009B1373 /* FoldedTableViewHeaderFooterViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4442CCF91DD1AC56009B1373 /* FoldedTableViewHeaderFooterViewModel.m */; };
+		4442CCFD1DD1ACDC009B1373 /* FoldedTableViewCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4442CCFC1DD1ACDC009B1373 /* FoldedTableViewCellModel.m */; };
+		4442CD001DD1ADAB009B1373 /* FoldedTableViewHeaderFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4442CCFF1DD1ADAB009B1373 /* FoldedTableViewHeaderFooterView.m */; };
+		4442CD041DD1ADD6009B1373 /* FoldedTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4442CD021DD1ADD6009B1373 /* FoldedTableViewCell.m */; };
+		4442CD051DD1ADD6009B1373 /* FoldedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4442CD031DD1ADD6009B1373 /* FoldedTableViewCell.xib */; };
+		4442CD081DD1CA18009B1373 /* UIImageView+Letters.m in Sources */ = {isa = PBXBuildFile; fileRef = 4442CD071DD1CA18009B1373 /* UIImageView+Letters.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4442CCDE1DD1AA63009B1373 /* FoldedTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoldedTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4442CCE21DD1AA63009B1373 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4442CCE41DD1AA63009B1373 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4442CCE51DD1AA63009B1373 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4442CCE71DD1AA63009B1373 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4442CCE81DD1AA63009B1373 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4442CCEB1DD1AA63009B1373 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4442CCED1DD1AA63009B1373 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4442CCF01DD1AA63009B1373 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4442CCF21DD1AA63009B1373 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4442CCF81DD1AC56009B1373 /* FoldedTableViewHeaderFooterViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoldedTableViewHeaderFooterViewModel.h; sourceTree = "<group>"; };
+		4442CCF91DD1AC56009B1373 /* FoldedTableViewHeaderFooterViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoldedTableViewHeaderFooterViewModel.m; sourceTree = "<group>"; };
+		4442CCFB1DD1ACDC009B1373 /* FoldedTableViewCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoldedTableViewCellModel.h; sourceTree = "<group>"; };
+		4442CCFC1DD1ACDC009B1373 /* FoldedTableViewCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoldedTableViewCellModel.m; sourceTree = "<group>"; };
+		4442CCFE1DD1ADAB009B1373 /* FoldedTableViewHeaderFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoldedTableViewHeaderFooterView.h; sourceTree = "<group>"; };
+		4442CCFF1DD1ADAB009B1373 /* FoldedTableViewHeaderFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoldedTableViewHeaderFooterView.m; sourceTree = "<group>"; };
+		4442CD011DD1ADD6009B1373 /* FoldedTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoldedTableViewCell.h; sourceTree = "<group>"; };
+		4442CD021DD1ADD6009B1373 /* FoldedTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoldedTableViewCell.m; sourceTree = "<group>"; };
+		4442CD031DD1ADD6009B1373 /* FoldedTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FoldedTableViewCell.xib; sourceTree = "<group>"; };
+		4442CD061DD1CA18009B1373 /* UIImageView+Letters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Letters.h"; sourceTree = "<group>"; };
+		4442CD071DD1CA18009B1373 /* UIImageView+Letters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Letters.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4442CCDB1DD1AA63009B1373 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4442CCD51DD1AA63009B1373 = {
+			isa = PBXGroup;
+			children = (
+				4442CCE01DD1AA63009B1373 /* FoldedTableView */,
+				4442CCDF1DD1AA63009B1373 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4442CCDF1DD1AA63009B1373 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4442CCDE1DD1AA63009B1373 /* FoldedTableView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4442CCE01DD1AA63009B1373 /* FoldedTableView */ = {
+			isa = PBXGroup;
+			children = (
+				4442CCE41DD1AA63009B1373 /* AppDelegate.h */,
+				4442CCE51DD1AA63009B1373 /* AppDelegate.m */,
+				4442CCE71DD1AA63009B1373 /* ViewController.h */,
+				4442CCE81DD1AA63009B1373 /* ViewController.m */,
+				4442CCF81DD1AC56009B1373 /* FoldedTableViewHeaderFooterViewModel.h */,
+				4442CCF91DD1AC56009B1373 /* FoldedTableViewHeaderFooterViewModel.m */,
+				4442CCFB1DD1ACDC009B1373 /* FoldedTableViewCellModel.h */,
+				4442CCFC1DD1ACDC009B1373 /* FoldedTableViewCellModel.m */,
+				4442CCFE1DD1ADAB009B1373 /* FoldedTableViewHeaderFooterView.h */,
+				4442CCFF1DD1ADAB009B1373 /* FoldedTableViewHeaderFooterView.m */,
+				4442CD011DD1ADD6009B1373 /* FoldedTableViewCell.h */,
+				4442CD021DD1ADD6009B1373 /* FoldedTableViewCell.m */,
+				4442CD031DD1ADD6009B1373 /* FoldedTableViewCell.xib */,
+				4442CD061DD1CA18009B1373 /* UIImageView+Letters.h */,
+				4442CD071DD1CA18009B1373 /* UIImageView+Letters.m */,
+				4442CCEA1DD1AA63009B1373 /* Main.storyboard */,
+				4442CCED1DD1AA63009B1373 /* Assets.xcassets */,
+				4442CCEF1DD1AA63009B1373 /* LaunchScreen.storyboard */,
+				4442CCF21DD1AA63009B1373 /* Info.plist */,
+				4442CCE11DD1AA63009B1373 /* Supporting Files */,
+			);
+			path = FoldedTableView;
+			sourceTree = "<group>";
+		};
+		4442CCE11DD1AA63009B1373 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4442CCE21DD1AA63009B1373 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4442CCDD1DD1AA63009B1373 /* FoldedTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4442CCF51DD1AA63009B1373 /* Build configuration list for PBXNativeTarget "FoldedTableView" */;
+			buildPhases = (
+				4442CCDA1DD1AA63009B1373 /* Sources */,
+				4442CCDB1DD1AA63009B1373 /* Frameworks */,
+				4442CCDC1DD1AA63009B1373 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoldedTableView;
+			productName = FoldedTableView;
+			productReference = 4442CCDE1DD1AA63009B1373 /* FoldedTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4442CCD61DD1AA63009B1373 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Code Geass";
+				TargetAttributes = {
+					4442CCDD1DD1AA63009B1373 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = N2PG2S36J2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4442CCD91DD1AA63009B1373 /* Build configuration list for PBXProject "FoldedTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4442CCD51DD1AA63009B1373;
+			productRefGroup = 4442CCDF1DD1AA63009B1373 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4442CCDD1DD1AA63009B1373 /* FoldedTableView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4442CCDC1DD1AA63009B1373 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4442CCF11DD1AA63009B1373 /* LaunchScreen.storyboard in Resources */,
+				4442CD051DD1ADD6009B1373 /* FoldedTableViewCell.xib in Resources */,
+				4442CCEE1DD1AA63009B1373 /* Assets.xcassets in Resources */,
+				4442CCEC1DD1AA63009B1373 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4442CCDA1DD1AA63009B1373 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4442CD001DD1ADAB009B1373 /* FoldedTableViewHeaderFooterView.m in Sources */,
+				4442CCE91DD1AA63009B1373 /* ViewController.m in Sources */,
+				4442CD081DD1CA18009B1373 /* UIImageView+Letters.m in Sources */,
+				4442CCE61DD1AA63009B1373 /* AppDelegate.m in Sources */,
+				4442CCFA1DD1AC56009B1373 /* FoldedTableViewHeaderFooterViewModel.m in Sources */,
+				4442CCE31DD1AA63009B1373 /* main.m in Sources */,
+				4442CCFD1DD1ACDC009B1373 /* FoldedTableViewCellModel.m in Sources */,
+				4442CD041DD1ADD6009B1373 /* FoldedTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4442CCEA1DD1AA63009B1373 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4442CCEB1DD1AA63009B1373 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4442CCEF1DD1AA63009B1373 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4442CCF01DD1AA63009B1373 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4442CCF31DD1AA63009B1373 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4442CCF41DD1AA63009B1373 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4442CCF61DD1AA63009B1373 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N2PG2S36J2;
+				INFOPLIST_FILE = FoldedTableView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ec.FoldedTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos10.1;
+			};
+			name = Debug;
+		};
+		4442CCF71DD1AA63009B1373 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N2PG2S36J2;
+				INFOPLIST_FILE = FoldedTableView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ec.FoldedTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos10.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4442CCD91DD1AA63009B1373 /* Build configuration list for PBXProject "FoldedTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4442CCF31DD1AA63009B1373 /* Debug */,
+				4442CCF41DD1AA63009B1373 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4442CCF51DD1AA63009B1373 /* Build configuration list for PBXNativeTarget "FoldedTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4442CCF61DD1AA63009B1373 /* Debug */,
+				4442CCF71DD1AA63009B1373 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4442CCD61DD1AA63009B1373 /* Project object */;
+}
