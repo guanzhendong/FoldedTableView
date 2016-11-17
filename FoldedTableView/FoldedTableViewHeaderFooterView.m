@@ -15,7 +15,7 @@ static CGFloat const kArrowImageViewWidth = 12;
 
 @interface FoldedTableViewHeaderFooterView ()
 @property (nonatomic, strong) FoldedTableViewHeaderFooterViewModel *model;
-@property (nonatomic, copy) DidSelectBlock block;
+@property (nonatomic, copy) dispatch_block_t block;
 @end
 
 @implementation FoldedTableViewHeaderFooterView
@@ -66,13 +66,13 @@ static CGFloat const kArrowImageViewWidth = 12;
     _model.expanded = ! _model.isExpanded;
 
     if (_block) {
-        _block(_model.isExpanded);
+        _block();
     }
 }
 
 - (void)setupWithModel:(FoldedTableViewHeaderFooterViewModel *)model
                section:(NSInteger)section
-        didSelectBlock:(DidSelectBlock)block
+        didSelectBlock:(dispatch_block_t)block
 {
     _model = model;
     _block = block;

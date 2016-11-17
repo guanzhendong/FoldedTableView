@@ -120,7 +120,7 @@
 - (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section{
     FoldedTableViewHeaderFooterView *view = [tableView dequeueReusableHeaderFooterViewWithIdentifier:@"FoldedTableViewHeaderFooterView"];
     FoldedTableViewHeaderFooterViewModel *model = self.sectionData[section];
-    [view setupWithModel:model section:section didSelectBlock:^(BOOL isExpanded) {
+    [view setupWithModel:model section:section didSelectBlock:^{
 //        [tableView reloadSections:[NSIndexSet indexSetWithIndex:section] withRowAnimation:UITableViewRowAnimationFade];
         [tableView reloadData];
     }];

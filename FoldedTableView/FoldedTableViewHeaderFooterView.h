@@ -9,8 +9,6 @@
 #import <UIKit/UIKit.h>
 @class FoldedTableViewHeaderFooterViewModel;
 
-typedef void(^DidSelectBlock)(BOOL isExpanded);
-
 @interface FoldedTableViewHeaderFooterView : UITableViewHeaderFooterView
 
 @property (nonatomic, strong) UIImageView *arrowImageView;
@@ -21,6 +19,6 @@ typedef void(^DidSelectBlock)(BOOL isExpanded);
 
 - (void)setupWithModel:(FoldedTableViewHeaderFooterViewModel *)model
                section:(NSInteger)section
-        didSelectBlock:(DidSelectBlock)block;
+        didSelectBlock:(dispatch_block_t)block;
 
 @end
